@@ -1,0 +1,63 @@
+.btn {
+    background: rgba(23, 15, 12, 0.57);
+    border: 3px solid $main-color;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.4s ease-in;
+    text-decoration: none;
+    &:hover {
+        background: $main-color;
+        transition: 0.4s ease-in;
+    }
+    &__promo {
+        padding-top: 15px;
+        width: 220px;
+        height: 64px;
+        font-size: 24px;
+        line-height: 28px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    &__about {
+        padding-top: 15px;
+        width: 220px;
+        height: 64px;
+        font-size: 24px;
+        line-height: 28px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 110px;
+    }
+    &__masters {
+        padding-top: 15px;
+        width: 220px;
+        height: 64px;
+        font-size: 24px;
+        line-height: 28px;
+        display: block;
+        margin: 0 auto;
+    }
+    &__location {
+        width: 287px;
+        height: 65px;
+        font-size: 20px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 104px;
+    }
+    &__choose {
+        width: 255px;
+        height: 65px;
+        font-size: 24px;
+        line-height: 28px;
+        display: block;
+        margin: 0 auto;
+    }
+}

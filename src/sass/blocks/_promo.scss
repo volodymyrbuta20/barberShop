@@ -1,0 +1,53 @@
+body {
+    background: $bg-color;
+}
+.promo {
+    position: relative;
+    padding: 23px 0 41px;
+    background: url('../img/bg/bg-f-page.png') no-repeat 50%/cover,
+                $bg-color;
+    &__stripes {
+        position: relative;
+        margin: 0 auto;
+        margin-top: 150px;
+        width: 848px;
+        height: 533px;
+    }
+    &__title {
+        position: absolute;
+        width: 75%;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        font-family: 'Council';
+        font-weight: 500;
+        font-style: normal;
+        font-size: 190px;
+        line-height: 150px;
+        letter-spacing: 0.035em;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__span {
+        font-size: 144px;
+        line-height: 144px;
+        letter-spacing: 0.145em;
+    }
+    &__logo {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    &__logo-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.social {
+    margin-top: 76px;
+    &__icon {
+        margin-right: 23px;
+    }
+}

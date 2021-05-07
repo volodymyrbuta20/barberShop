@@ -1,0 +1,41 @@
+.menu {
+    position: fixed;
+    top: 170px;
+    left: 21%;
+    width: 400px;
+    padding: 60px 50px 30px 50px;
+    background: rgba(74, 57, 51, 0.93);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-100%);
+    transition: 0.4s ease-in;
+    z-index: 11;
+    &.show {
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(0);
+    }
+    &__list {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+    }
+    &__item {
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+        border-bottom: 1px solid rgba(23, 15, 12, 0.72);
+    }
+    &__link {
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 33px;
+        letter-spacing: 0.01em;
+        color: rgba(255, 255, 255, 0.66);
+        text-decoration: none;
+        transition: 0.3s ease-in;
+        &:hover {
+            color: $main-color;
+        }
+    }
+}

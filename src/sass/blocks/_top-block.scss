@@ -1,0 +1,33 @@
+.top-block {
+    position: relative;
+    .logo {
+        display: block;
+        margin: 0 auto;
+    }
+    .lines {
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        bottom: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .divider {
+        margin: 0 75px;
+        width: 220px;
+        height: 0px;
+        border: 2px solid $main-color;
+        background: $main-color;
+    }
+    .title {
+        margin: -20px 0 0 0;
+        font-family: 'Council';
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 0.125em;
+        color: $main-color;
+        text-transform: uppercase;
+    }
+}

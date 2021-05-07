@@ -1,0 +1,73 @@
+.services {
+    margin: 30px 0;
+    position: relative;
+    background: url('../img/redgrey-longest.png') no-repeat center/cover;
+    &__wraper {
+        padding-bottom: 30px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 25px;
+    }
+    &__block {
+        width: calc(50% - 25px);
+        border: 3px solid $main-color;
+        display: flex;
+        justify-content: start;
+    }
+    &__foto {
+        border-right: 2px solid $main-color;
+        width: 230px;
+        height: 100%;
+        object-fit: cover;
+    }
+    &__descr {
+        padding: 22px 12px 22px 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    &__title {
+        margin: 0;
+        font-family: 'Council';
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 36px;
+        letter-spacing: 0.105em;
+        color: #FFFFFF;
+    }
+    &__text {
+        margin-top: 15px;
+        flex-grow: 1;
+        font-family: 'Open Sans';
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 116.68%;
+        letter-spacing: 0.01em;
+        color: #FFFFFF;
+    }
+    &__price {
+        margin-top: 10px;
+        font-family: 'Council';
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 36px;
+        letter-spacing: 0.105em;
+        color: $main-color;
+    }
+}
+.bgwraper {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: $bg-color;
+    &__about {
+        background: url('../img/bg/secondpage.png') no-repeat center/cover,
+                    $bg-color;
+    }
+    &__choose {
+        background: url('../img/bg/last-page.png') no-repeat center/cover,
+                    $bg-color;
+    }
+}
+
